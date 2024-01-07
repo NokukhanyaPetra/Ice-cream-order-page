@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice-Cream-Lovers</title>
+    <style>
+      body {
+        background-image: url(https://images.creativemarket.com/0.1.0/ps/5712136/1820/1214/m1/fpnw/wm1/zrblug0orldjkcykiymqltizfyps0frp6themglxslx1f0sr18vvnv7nxpduyk7z-.jpg?1547653312&s=c019fc15dd80eacea51460e534ff8dc3);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: black;
+        text-align: center;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 50px;
+        padding: 15px 60px;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+      button:hover {
+        background: white;
+        color: #1a64d6;
+        border: 1px solid #1a64d6;
+      }
+      p {
+        font-size: 18px;
+        text-align: center;
+        font-family: monospace;
+        padding: 20px;
+      }
+      div.scroll-container {
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+      }
+
+      div.scroll-container img {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ICE-CREAM-LOVERS</h1>
+    <h2><strong>Melt in to happiness</strong></h2>
+    <p>
+      <em>
+        <strong>
+          All the flavors are available, weather you want icecream for just<br />
+          yourself or an event.With delivery to your door, We do cater for<br />
+          restaurants, corporates. Single to burk orders we got you<br />
+          covered offering you a smooth online shopping experience…<br />
+          but with ice cream.😉Find your flavor today <br />You can’t go wrong
+          with
+          <span style="color: rgb(3, 3, 79); font-weight: bold"
+            >ICE-CREAM-LOVERS</span
+          >
+          —it’s pure perfection.
+        </strong>
+      </em>
+    </p>
+    <h4>Our most bought flavors:</h4>
+    <div class="scroll-container">
+      <img
+        src="https://th.bing.com/th/id/OIP.htLfmprZg5ua6ou8kn1vMQHaGt?rs=1&pid=ImgDetMain"
+        width="200"
+        height="200"
+      />
+      <img
+        src="https://cdn.everythingkitchens.com/media/wysiwyg/articles/icecream/rsz_1chocolare-tea-icecream-crop2.jpg"
+        width="200"
+        height="200"
+      />
+      <img
+        src="https://th.bing.com/th/id/OIP.Y6TrmOFRCo7xC1YrpEYnMQHaHa?rs=1&pid=ImgDetMain"
+        width="200"
+        height="200"
+      />
+      <img
+        src="https://th.bing.com/th/id/R.91d054cfcda0a5daa8ceb906cb1a55ef?rik=ey9c4fUYEhYyFA&pid=ImgRaw&r=0"
+        width="200"
+        height="200"
+      />
+      <img
+        src="https://th.bing.com/th/id/R.4a73e75c3e8f2dfd4a72bf236f9bb8dd?rik=xCxnGr2VM4es6w&pid=ImgRaw&r=0"
+        width="200"
+        height="200"
+      />
+      <img
+        src="https://img-aws.ehowcdn.com/700x/cdn.onlyinyourstate.com/wp-content/uploads/2020/07/3-20-700x829.jpg"
+        width="200"
+        height="200"
+      />
+      <img
+        src="https://th.bing.com/th/id/OIP.go1HEhszdQ_28iMygUROGAHaJ4?rs=1&pid=ImgDetMain"
+        width="200"
+        height="200"
+      />
+      <img
+        src="https://th.bing.com/th/id/R.04973f0fb2f134a25082b4b411697099?rik=0xSWK74MprgcBg&pid=ImgRaw&r=0"
+        width="200"
+        height="200"
+      />
+    </div>
+    <h4>
+      learn about the good mental and emotional effect of icecream
+      <a
+        href="https://www.onlymyhealth.com/mental-health-benefits-of-ice-cream-having-ice-cream-for-breakfast-can-be-beneficial-for-the-brain-1570621098"
+        >Mental benifits</a
+      >
+    </h4>
+
+    <button>Order here</button>
+
+    <hr style="width: 100%; text-align: center; margin-left: 0" />
+    <p>Created by Nokukhanya Tshabangu</p>
+    <hr style="width: 100%; text-align: center; margin-left: 0" />
+    <script>
+      function buyIceCream() {
+        let name = prompt("What is your name");
+        let place = prompt("What is you home adress?");
+        let flavor = prompt("What ice-cream flavor would you like to order?");
+        let contact = prompt("What is your email adress?");
+        if (
+          flavor === "vanila" ||
+          flavor === "chocolate" ||
+          flavor === "hazelnut" ||
+          flavor === "caramel" ||
+          flavor === "strawberry"
+        ) {
+          alert(
+            "Welcome to ICE-CREAM-LOVERS, " +
+              name +
+              " We will have your" +
+              flavor +
+              " icecream delivered to " +
+              place
+          );
+          alert("Thank you!");
+        }
+        if (
+          flavor === "bar one" ||
+          flavor === "bubble gum" ||
+          flavor === "death by chocolate" ||
+          flavor === "oreo"
+        ) {
+          alert(
+            "Welcome to ICE-CREAM-LOVERS, " +
+              name +
+              " We are preparing your flavor, it might take a while " +
+              flavor +
+              " icecream will delivered to as soon as possible " +
+              place
+          );
+          alert("Thank you!");
+        } else {
+          alert(
+            "Sorry " +
+              name +
+              " , unfortunatly that flavor is not yet available, please choose anather flavor."
+          );
+        }
+      }
+      let OrderhereButton = document.querySelector("button");
+      OrderhereButton.addEventListener("click", buyIceCream);
+    </script>
+  </body>
+</html>
